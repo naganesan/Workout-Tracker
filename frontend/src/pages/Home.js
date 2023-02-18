@@ -57,7 +57,7 @@ const Home =  () => {
     return ( 
         <div className="home container-fluid p-4" value={{workouts}}>
             
-            <div className="row">
+            <div className="row flex-column-reverse">
             
                 <div className="col  ">
                 <h1 className="mt-3">Workouts Tracker</h1>
